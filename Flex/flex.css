@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+}
+
+.container nav{
+    padding: 0 20px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0 5px 20px rgba(0,0,0,.1);
+}
+
+.container nav ul{
+    display: flex;
+}
+
+.container nav ul li{
+    list-style-type: none;
+    padding: 10px 15px;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.container nav ul li:hover{
+    background-color: black;
+    color: white;
+}
+
+.container .landing{
+    height: calc(100vh - 70px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .landing h1{
+    background-color: black;
+    padding: 30px;
+    border-radius: 50%;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.container .landing p{
+    font-size: 19px;
+    margin-top: 10px;
+}
+
+.container .more{
+    padding: 50px 10px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.container .more .m-cnt{
+    width: 80%;
+    text-align: center;
+}
+
+.container .more .m-cnt p{
+    line-height: 35px;
+    margin: 50px 0;
+}
+
+.container .more .m-cnt button{
+    padding: 8px 15px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.container .web{
+    margin: 80px 25px;
+}
+
+.container .web h2{
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.container .web .tools{
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+}
+
+.container .web .tools .tool{
+    padding: 50px 20px;
+    flex-basis: 28%;
+    box-shadow: 0 0 25px rgba(0,0,0,.1);
+}
+
+.container .web .tools .tool-1{
+    align-self: flex-start;
+}
+
+.container .web .tools .tool-2{
+    align-self: center;
+}
+
+.container .web .tools .tool-3{
+    align-self: flex-end;
+}
+
+.container .web .tools .tool .header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.container .web .tools .tool .header i{
+    font-size: 60px;
+    margin-right: 25px;
+}
+
+.container .web .tools .tool p{
+    line-height: 30px;
+}
+
+.container .teams{
+    padding: 80px 25px;
+    background-color: black;
+    color: white;
+}
+
+.container .teams h2{
+    text-align: center;
+}
+
+.container .teams .team{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container .teams .team-1{
+    margin-bottom: 80px;
+}
+
+.container .teams .team .tm{
+    flex-basis: 45%;
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.container .teams .team .tm img{
+    width: 250px;
+}
+
+.container .teams .team .tm .t{
+    margin: 0 10px;
+}
+
+.container .teams .team .tm .info h4{
+    margin: 10px 0;
+}
+
+.container .teams .team .tm .info p{
+    line-height: 25px;
+    font-size: 14px;
+}
+
+.container .teams .team .tm .r{
+    text-align: right;
+}
+
+.container .testimonials{
+    margin: 80px 15px;
+}
+
+.container .testimonials h2{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.container .testimonials .tsm{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container .testimonials .tsm .tst{
+    flex-basis: 45%;
+    margin: 0 15px;
+    padding: 25px;
+    box-shadow: 0 0 20px rgba(0,0,0,.1);
+}
+
+.container .testimonials .tsm .t-3{
+    margin-top: 50px;
+}
+
+.container .testimonials .tsm .tst .ti{
+    line-height: 27px;
+    margin-bottom: 30px;
+}
+
+.container .testimonials .tsm .tst .t-info{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container .testimonials .tsm .tst .t-info img{
+    width: 70px;
+    border-radius: 50%;
+    margin-right: 25px;
+}   
+
+.container .testimonials .tsm .tst .t-info .cnt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container footer{
+    background-color: black;
+    padding: 40px 15px;
+    color: white;
+}
+
+.container footer .ftr{
+    text-align: center;
+    padding-bottom: 50px;
+    border-bottom: 1px solid grey;
+}
+
+.container footer .ftr p{
+    font-size: 14px;
+    font-style: italic;
+    margin: 30px 0;
+}
+
+.container footer .ftr .social-icons a{
+    color: black;
+    background-color: white;
+    padding: 9px 13px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.container footer .ftr .social-icons a i{
+    font-size: 18px;
+}
+
+.container footer .cp{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container footer .cp p{
+    font-size: 14px;
+}
+
+.container footer .cp p span{
+    font-size: 16px;
+}
